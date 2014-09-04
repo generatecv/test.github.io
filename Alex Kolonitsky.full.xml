@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resume xmlns="http://alex.kolonitsky.org/resume.xsd" lang="en" locale="en_US"
+        url="http://alex.kolonitsky.org">
+
+  <general >
+      <name>
+         <first>Alex</first>
+         <last>Kolonitsky</last>
+      </name>
+      <location>
+         <city>Minsk</city>
+         <country>Belarus</country>
+      </location>
+      <position>Senior Java Developer</position>
+      <birthday>05/07/1986</birthday>
+      <image>/alex/photo.jpg</image>
+      <description>
+         <ul>
+            <li>9 years experience in Internet technologies.</li>
+            <li>7 years of professional experience in IT field, development of Java and J2EE based applications.</li>
+            <li>Knowledge and clear understanding of object oriented programming, design patterns and functional programming principles.</li>
+            <li>Strong analytical and problem solving skills</li>
+            <li>Result oriented professional, able to quickly grasp new technologies</li>
+         </ul>
+      </description>
+
+      <section label="Interested in…">
+         <description>
+            <ul>
+               <li>Functional Programming &amp; Modern JVM languages (i.e. Groovy,  Scala,  Clojure)</li>
+               <li>Project Metrics, Code Quality and White Box Testing.</li>
+               <li>Data Bases including NoSQL</li>
+               <li>Human-Computer interaction, Natural languages processing and Artificial Intelligence.</li>
+            </ul>
+         </description>
+      </section>
+
+      <section label="Contacts">
+         <item label="Phone">+375 (29) 760-19-45</item>
+         <item label="E-mail">alex.kolonitsky@gmail.com</item>
+         <item label="www">http://alex.kolonitsky.org</item>
+         <item label="XMPP">alex.kolonitsky@gmail.com</item>
+         <item label="Skype">Desargues_</item>
+         <section label="Social">
+            <item href="http://www.facebook.com/alex.kolonitsky" icon="facebook" label="Facebook"/>
+            <item href="https://plus.google.com/103462025055976002878" icon="googleplus"
+                  label="Google+"/>
+            <item href="http://www.linkedin.com/pub/alex-kolonitsky/28/b24/61a/" icon="linkedin"
+                  label="LinkedIn"/>
+            <item href="http://vk.com/alex.kolonitsky" icon="vk" label="ВКонтакте"/>
+            <item href="http://alex-kolonitsky.moikrug.ru/" icon="moikrug" label="Мои Круг"/>
+         </section>
+      </section>
+  </general>
+
+  <education >
+      <university url="http://www.bsu.by">
+         <name>Belarusian State University</name>
+         <faculty>Faculty of Applied Mathematics and Computer Science</faculty>
+         <profession>Mathematician - System Programmer</profession>
+         <when spent="60" spent-full="5 years" spent-short="5 y 0 m" spent-symbol="5">
+            <date-start>2004</date-start>
+            <date-end>2009</date-end>
+         </when>
+      </university>
+
+      <university url="http://www.bsu.by">
+         <name>Belarusian State University</name>
+         <faculty>Institute of Information Technology and Management</faculty>
+         <profession>Mathematician - Economist</profession>
+         <when spent="24" spent-full="2 years" spent-short="2 y 0 m" spent-symbol="2">
+            <date-start>2007</date-start>
+            <date-end>2009</date-end>
+         </when>
+      </university>
+
+      <other>
+         <item label="English">upper-intermediate</item>
+         <item label="Sertificates">SCJP 5.0</item>
+      </other>
+
+      <university url="http://www.intuit.ru">
+         <name>The National Open University</name>
+         <when spent="104" spent-full="8 years 8 months" spent-short="8 y 8 m"
+               spent-symbol="8⅔">
+            <date-start>2006</date-start>
+            <date-end>...</date-end>
+         </when>
+         <courses>
+            <section name="Android">Android</section>
+            <section name="Math">Math</section>
+            <section name="UML">UML</section>
+            <section name="Web Development">Web Development</section>
+            <section name="Functional Programming">Functional Programming</section>
+            <section name="Other">Other</section>
+         </courses>
+      </university>
+      <university url="http://www.coursera.org">
+         <name>Coursera</name>
+         <when spent="32" spent-full="2 years 8 months" spent-short="2 y 8 m"
+               spent-symbol="2⅔">
+            <date-start>2012</date-start>
+            <date-end>...</date-end>
+         </when>
+         <courses>
+            <item href="http://www.old.intuit.ru/diplom/q9jN4Rtx7Yu3/A00247595/">Scala</item>
+            <item href="http://www.old.intuit.ru/diplom/q9jN4Rtx7Yu3/A00247595/">Game Theory</item>
+            <item href="http://www.old.intuit.ru/diplom/q9jN4Rtx7Yu3/A00247595/">Natural Language Processing</item>
+         </courses>
+      </university>
+  </education>
+
+  <experience >
+      <description>
+         <p>In general all working experience and education can be represented at time line below.
+        It should simplify understanding relationships between all projects and full\partial time projects.
+        Under time line shown all education activities at opposite side you can see all projects with role
+        with I’ve played in them.</p>
+
+         <img alt="Alex Kolonitsky visual resume" src="resume-view-1.jpg" width="100%"/>
+
+         <p>All details about projects, companies, technologies and my role given in tables
+        <a href="#projects" onclick="showProjects(this, event)">here</a> in chronological order from the most resent to the oldest one.</p>
+      </description>
+
+      <company>
+         <name url="http://www.objectstyle.com/">ObjectStyle</name>
+         <position>Lead Developer</position>
+
+         <project>
+            <name url="https://cayenne.apache.org/">Apache Cayenne</name>
+            <when spent="1" spent-full="1 month" spent-short="1 m" spent-symbol="⅙">
+               <date-start>08.2014</date-start>
+               <date-end>...</date-end>
+            </when>
+            <description>
+            Apache Cayenne(tm) is an open source persistence framework licensed under the Apache License, providing object-relational mapping (ORM) and remoting services. With a wealth of unique and powerful features, Cayenne can address a wide range of persistence needs. Cayenne seamlessly binds one or more database schemas directly to Java objects, managing atomic commit and rollbacks, SQL generation, joins, sequences, and more. With Cayenne's Remote Object Persistence, those Java objects can even be persisted out to clients via Web Services.
+        </description>
+
+            <facet label="Role">Lead Developer</facet>
+            <facet label="Responsibilities">
+               <item/>
+            </facet>
+            <facet label="Technologies">Swing, Maven, Ant, JavaCC</facet>
+            <facet label="RDBMS">All</facet>
+            <facet label="Environment">iMac, Maven, Git, Jenkins, Sonar</facet>
+         </project>
+         <when spent="1" spent-full="1 month" spent-short="1 m" spent-symbol="⅙">
+            <date-start>08.2014</date-start>
+            <date-end>09.2014</date-end>
+         </when>
+      </company>
+
+      <company>
+         <name url="http://www.exigenservices.com/">Exigen Services</name>
+         <position>Team Lead</position>
+         <description/>
+
+         <project>
+            <name url="http://www.exigeninsurance.com/business-solutions/overview.html">EIS CRM</name>
+            <when spent="19" spent-full="1 year 7 months" spent-short="1 y 7 m" spent-symbol="1⅔">
+               <date-start>12.2012</date-start>
+               <date-end>07.2014</date-end>
+            </when>
+            <description>CustomerCore is a comprehensive, insurance-specific customer relationship management (CRM) system with multi-channel integrated customer communication management (CCM). Its customer-centric design provides an optimal user experience with role-based interfaces for all types of interactions including self-service, such as Web and mobile applications, and contact center.</description>
+
+            <facet label="Role">Team Lead\Project Manager\Scrum Master</facet>
+            <facet label="Responsibilities">
+               <item>Scrum activities (planning, retrospective, product review, ...)</item>
+               <item>Interview new developers, couching newcomers, performance review</item>
+               <item>New projects design and estimation</item>
+               <item>Team coordination</item>
+               <item>Development process improvements</item>
+               <item>User and technical documentation review</item>
+               <item>Automation (Unit, Integration, End To End) and manual testing</item>
+               <item>JSF Components implementation</item>
+               <item>Introduce JSR 303 for validation</item>
+            </facet>
+            <facet label="Technologies">Spring, JPA/Hibernate, JSF2 (Richfaces, PrimeFaces), REST, JAXB, Spring Web Flow, Selenium</facet>
+            <facet label="RDBMS">MS SQL, Oracle</facet>
+            <facet label="Environment">Jboss, Maven, LiquidBase, Mercurial, Jenkins, Sonar</facet>
+         </project>
+         <when spent="19" spent-full="1 year 7 months" spent-short="1 y 7 m" spent-symbol="1⅔">
+            <date-start>12.2012</date-start>
+            <date-end>07.2014</date-end>
+         </when>
+      </company>
+
+      <company>
+         <name url="www.profitero.com">Profitero</name>
+         <description/>
+         <position>Senior Software Engineer</position>
+
+         <project>
+            <name url="www.profitero.com">Profitero</name>
+            <when spent="2" spent-full="2 months" spent-short="2 m" spent-symbol="¼">
+               <date-start>09.2012</date-start>
+               <date-end>11.2012</date-end>
+            </when>
+            <description>Profitero is a next-generation pricing intelligence service for retailers and
+          manufacturers. We help our clients increase sales and maximize profits by leveraging high-quality online
+          competitive data at scale. </description>
+
+            <facet label="Role">Senior Software Engineer</facet>
+            <facet label="Responsibilities">
+               <item>Set up project infrastructure</item>
+               <item>New feature implementation</item>
+               <item>Introduce unit testing in development process</item>
+               <item>Build Single Page client on DOJO</item>
+            </facet>
+            <facet label="Technologies">Spring, JPA/Hibernate, JSF2 (Richfaces, PrimeFaces), REST, JAXB, Spring Web Flow, Selenium</facet>
+            <facet label="RDBMS">MS SQL, Oracle</facet>
+            <facet label="Environment">Jboss, Maven, LiquidBase, Mercurial, Jenkins, Sonar</facet>
+         </project>
+         <when spent="2" spent-full="2 months" spent-short="2 m" spent-symbol="¼">
+            <date-start>09.2012</date-start>
+            <date-end>11.2012</date-end>
+         </when>
+      </company>
+
+      <company>
+         <name url="www.exadel.com">Exadel</name>
+         <position>Senior Software Engineer</position>
+
+         <project>
+            <when spent="15" spent-full="1 year 3 months" spent-short="1 y 3 m" spent-symbol="1¼">
+               <date-start>03.2011</date-start>
+               <date-end>06.2012</date-end>
+            </when>
+            <name>UBS FA Mobile</name>
+            <description>Internal project for UBS bank to access desktop workstation remotely via mobile devices. </description>
+
+            <facet label="Role">Senior Software Engineer</facet>
+            <facet label="Responsibilities">
+               <item>Implementing business logic/persistence/web layer.</item>
+               <item>Developed unit tests (using DBUnit, XMLUnit, Mokhito) and functional tests (Selenium).</item>
+               <item>SQL Optimization.</item>
+            </facet>
+            <facet label="Technologies">Spring, JPA/Hibernate, JSF, Rest/Json, XSLT</facet>
+            <facet label="Environment">Jboss, Maven, Svn</facet>
+         </project>
+
+         <project>
+            <when spent="15" spent-full="1 year 3 months" spent-short="1 y 3 m" spent-symbol="1¼">
+               <date-start>03.2011</date-start>
+               <date-end>06.2012</date-end>
+            </when>
+            <name url="www.hp.com">HP Company site</name>
+            <description>Develop and test markup and client side logic for www.hp.com site</description>
+
+            <facet label="Role">Senior Software Engineer</facet>
+            <facet label="Responsibilities">
+               <item>Cross browser (including ie6) and Multilanguage markup, semantic markup and independent blocks markup techniques.</item>
+               <item>Site loading performance optimization</item>
+               <item>Development UI Widgets based on Mootols.js</item>
+               <item>Performance optimization of JavaScript</item>
+               <item>Writing Documentation</item>
+               <item>Writing a rude site translation tool through google translate on scala</item>
+            </facet>
+            <facet label="Technologies">JavaScript (Mootools), HTML, CSS, JSP 2.1</facet>
+            <facet label="Environment">Idea, SVN, Maven, Tomcat, Photoshop, Apache</facet>
+         </project>
+
+         <project>
+            <name>Ervision</name>
+            <when spent="1" spent-full="1 month" spent-short="1 m" spent-symbol="⅙">
+               <date-start>02.2011</date-start>
+               <date-end>03.2011</date-end>
+            </when>
+            <description>Resource Management Tool</description>
+            <facet label="Role">Senior Software Engineer</facet>
+            <facet label="Responsibilities">
+               <item>Solve problem with data concurrent access</item>
+               <item>SQL Query Optimization</item>
+            </facet>
+            <facet label="Technologies">Hibernate, JSF</facet>
+            <facet label="Environment">Idea</facet>
+         </project>
+
+         <project>
+            <name>JavaFX Plugin for Eclipse</name>
+            <when spent="4" spent-full="4 months" spent-short="4 m" spent-symbol="⅓">
+               <date-start>04.2010</date-start>
+               <date-end>08.2010</date-end>
+            </when>
+            <description>Plugin for eclipse</description>
+
+            <facet label="Role">Senior Software Engineer</facet>
+            <facet label="Responsibilities">
+               <item>Developed new features (using SWT, Jface and JavaFX Compiler API);</item>
+            </facet>
+            <facet label="Technologies">Java FX, Eclipse RCP, SWT, JFace</facet>
+            <facet label="Environment">Eclipse, SVN</facet>
+         </project>
+
+         <project>
+            <name url="http://www.jboss.org/richfaces">Jboss Richfaces</name>
+            <when spent="25" spent-full="2 years 1 month" spent-short="2 y 1 m" spent-symbol="2⅙">
+               <date-start>01.2009 </date-start>
+               <date-end>02.2011</date-end>
+            </when>
+            <description>RichFaces is a rich component library for JSF and an advanced framework for easily integrating AJAX capabilities into business application development. The RichFaces components come ready to use out-of-the-box, so developers can immediately save time in taking advantage of component features to create Web applications that provide greatly improved user experience more reliably and more quickly. RichFaces also includes strong support for the skinnability of JSF applications. RichFaces also takes full advantage of the benefits of the JSF framework including lifecycle, validation, and conversion facilities, along with the management of static and dynamic resources.</description>
+
+            <facet label="Role">Senior Software Engineer</facet>
+            <facet label="Responsibilities">
+               <item>Development  of the extensible JSF components.</item>
+               <item>Developed unit tests (using JUnit/TestNG/HttpUnit) and functional tests (Selenium).</item>
+               <item>Setup code review process</item>
+               <item>Project metrics reporting</item>
+               <item>Build management</item>
+            </facet>
+            <facet label="RDBMS">HQLDB</facet>
+            <facet label="Technologies">JSF, Facelets, Seam, Jboss, Tomcat, JavaScript</facet>
+            <facet label="Environment">Eclipse, SVN, Maven</facet>
+         </project>
+         <when spent="41" spent-full="3 years 5 months" spent-short="3 y 5 m"
+               spent-symbol="3½">
+            <date-start>01.2009</date-start>
+            <date-end>06.2012</date-end>
+         </when>
+      </company>
+
+      <company>
+         <name>TPK</name>
+
+         <project>
+            <when spent="19" spent-full="1 year 7 months" spent-short="1 y 7 m" spent-symbol="1⅔">
+               <date-start>05.2008 </date-start>
+               <date-end>12.2009</date-end>
+            </when>
+            <name>Romanta</name>
+            <description>An internet shop of DVD Movies</description>
+
+            <facet label="Role">Architect/Team Leader</facet>
+            <facet label="Responsibilities">
+               <item/>
+            </facet>
+            <facet label="RDBMS">MySQL</facet>
+            <facet label="Technologies">Ruby on Rails, JavaScript(Prototype+Script.aculo.us), Watir, Cucumber</facet>
+            <facet label="Environment">NetBeans, SVN, Rake</facet>
+         </project>
+         <when spent="19" spent-full="1 year 7 months" spent-short="1 y 7 m" spent-symbol="1⅔">
+            <date-start>05.2008</date-start>
+            <date-end>12.2009</date-end>
+         </when>
+      </company>
+
+      <company>
+         <name url="http://www.itransition.com">Itransition</name>
+         <position>Software Engineer</position>
+
+         <project>
+            <when spent="3" spent-full="3 months" spent-short="3 m" spent-symbol="¼">
+               <date-start>10.2008 </date-start>
+               <date-end>01.2009</date-end>
+            </when>
+            <name>Tocis II</name>
+            <description>An effective tool to manage a network of automobile dealerships that sell Toyota and Lexus cars. The TOCIS System is officially recommended by 'Toyota Motor' to be implemented on all car dealerships in Russia that sell these makes of cars. </description>
+
+            <facet label="Role">Developer</facet>
+            <facet label="Responsibilities">
+               <item>Developed client tier (using JSF framework together with JBoss RichFaces and JBoss Ajax4jsf components).</item>
+               <item>Implemented business logic (using Spring framework).</item>
+               <item>Developed persistence layer (using Hibernate).</item>
+               <item>Developed unit tests (using JUnit/DbUnit/EasyMock).</item>
+               <item>Build Integration;</item>
+               <item>Code review (setup and using Crucible)</item>
+            </facet>
+            <facet label="RDBMS">PostgreSQL, HQLDB</facet>
+            <facet label="Technologies">Glassfish, Jetty, JPA, JSF, Spring, JUnit, DbUnit</facet>
+            <facet label="Environment">Intelij IDEA, SVN, Maven</facet>
+         </project>
+
+         <project>
+            <when spent="1" spent-full="1 month" spent-short="1 m" spent-symbol="⅙">
+               <date-start>04.2008 </date-start>
+               <date-end>05.2008</date-end>
+            </when>
+            <name>Tetralog</name>
+            <description>ERP and  CRM System for a German company that benefits from international trade with thermoplastic raw-materials. The application has a client-server architecture and allows its users to manage resources, documents, create several kinds of reports.</description>
+            <facet label="Role">Developer</facet>
+            <facet label="Responsibilities">
+               <item>Performance optimization issues;</item>
+               <item>Developed new features (using Spring framework for back-end and SWT for frontend);</item>
+            </facet>
+            <facet label="RDBMS">PostgreSQL</facet>
+            <facet label="Technologies">Tomcat, Hibernate, Spring</facet>
+            <facet label="Environment">Intelij IDEA, Rational ClearCase, Ant</facet>
+         </project>
+
+         <project>
+            <when spent="2" spent-full="2 months" spent-short="2 m" spent-symbol="¼">
+               <date-start>11.2007 </date-start>
+               <date-end>01.2008</date-end>
+            </when>
+            <name>Web Tax</name>
+            <description>The project is a Web-based service for tax declarations management. It was built according to the requirements of the French ministry of finance. The application provides users with a convenient web-interface for managing declarations lifecycle: creating them manually, calculating, editing and sending. The project is built using J2EE application architecture.</description>
+            <facet label="Role">Developer</facet>
+            <facet label="Responsibilities">
+               <item>Performance optimization issues;</item>
+               <item>Client tier development (using custom GUI framework which is similar to JSF);</item>
+               <item>Code reviews;</item>
+            </facet>
+            <facet label="RDBMS">Oracle</facet>
+            <facet label="Technologies">JBoos, J2EE, AJAX</facet>
+            <facet label="Environment">Intelij IDEA, Rational ClearCase, ClearQuest, Ant</facet>
+         </project>
+
+         <project>
+            <when spent="24" spent-full="2 years" spent-short="2 y 0 m" spent-symbol="2">
+               <date-start>10. 2006 </date-start>
+               <date-end>10.2008</date-end>
+            </when>
+            <name>Carlo Maestro</name>
+            <description>The project is a Web-based service for business travel management. It was built according to the requirements of the French company. The application provides users with a convenient web-interface for managing expenditures, booking tickets &amp; hotel rooms, generating expenses reports and other internal business documents.</description>
+
+            <facet label="Role">Developer</facet>
+            <facet label="Responsibilities">
+               <item>Client tier development (using custom GUI framework which is similar to JSF), Performance optimization issues;</item>
+               <item>Persistence layer development (using custom framework which is similar to iBATIS);</item>
+               <item>Working with DB (including performance optimization issues)</item>
+               <item>Build Integration,</item>
+               <item>Code reviews;</item>
+            </facet>
+            <facet label="RDBMS">MSSQL, Oracle, PostgreSQL</facet>
+            <facet label="Technologies">J2EE</facet>
+            <facet label="Environment">Intelij IDEA, Rational ClearCase, ClearQuest, Ant</facet>
+         </project>
+         <when spent="27" spent-full="2 years 3 months" spent-short="2 y 3 m"
+               spent-symbol="2¼">
+            <date-start>10.2006</date-start>
+            <date-end>01.2009</date-end>
+         </when>
+      </company>
+  </experience>
+
+  <skills  label="Technical Skills">
+      <section id="java" label="Java">
+         <skill last-used="2012" level="8" title="JSP, Servlets"/>
+         <skill last-used="2014" level="6" title="JSF, Facelets"/>
+         <skill last-used="2014" level="7" title="A4J, Richfaces"/>
+         <skill last-used="2014" level="5" title="IceFaces, PrimeFaces, Trinidad, Tobago"/>
+         <skill last-used="2014" level="4" title="Spring"/>
+         <skill last-used="2009" level="5" title="EJB, Seam"/>
+         <skill last-used="2011" level="5" title="Guice"/>
+         <skill last-used="2010" level="3" title="ADF"/>
+         <section label="GUI">
+            <skill last-used="2014" level="5" title="Swing, AWT"/>
+            <skill last-used="2010" level="3" title="SWT, JFace"/>
+            <skill last-used="2014" level="3" title="Batik"/>
+         </section>
+         <section label="RDBMS">
+            <skill last-used="2014" level="7" title="JDBC"/>
+            <skill last-used="2009" level="4" title="Cayenne"/>
+            <skill last-used="2009" level="4" title="JPA (Hibernate)"/>
+            <skill last-used="2009" level="3" title="iBatis"/>
+         </section>
+         <section label="Other stuff">
+            <skill last-used="2009" level="2" title="Javassist"/>
+            <skill last-used="2014" level="4" title="Antrl, JavaCC"/>
+            <skill last-used="2011" level="5" title="XML (JAXB, SAX, DOM)"/>
+            <skill last-used="2014" level="4" title="Template Engine (FreeMarker, Velocity)"/>
+         </section>
+         <section label="Laguages">
+            <skill last-used="2013" level="3" title="Scala"/>
+            <skill last-used="2013" level="2" title="AspectJ"/>
+            <skill last-used="2010" level="3" title="JavaFX"/>
+         </section>
+      </section>
+      <section id="application-server-and-middleware"
+               label="Application Server and Middleware">
+         <skill last-used="2013" level="6" title="JBoss"/>
+         <skill last-used="2009" level="3" title="GlassFish"/>
+         <skill last-used="2007" level="2" title="WebLogic"/>
+         <skill last-used="2010" level="2" title="Apache Web Server"/>
+         <skill last-used="2014" level="6" title="Tomcat"/>
+         <skill last-used="2014" level="3" title="Jetty"/>
+         <skill last-used="2009" level="1" title="Resin"/>
+      </section>
+      <section id="modeling" label="Modeling">
+         <skill last-used="2014" level="7" title="UML"/>
+         <skill last-used="2009" level="7" title="IDEF (IDEF0, DFD, SADT, IDEF1X, IDEF3"/>
+         <skill last-used="2014" level="4"
+                title="ER diagram notation (Martin, Chen's, Crow’s Foot)"/>
+         <skill last-used="2011" level="3" title="LePUS3 and ClassZ"/>
+
+         <section label="Tools">
+            <skill last-used="2014" level="4" title="PlantUML and Graphiz"/>
+            <skill last-used="2008" level="3" title="Borland Together"/>
+            <skill last-used="2012" level="7" title="Enterprise Architect"/>
+            <skill last-used="2009" level="7" title="BpWin, ErWin"/>
+            <skill last-used="2007" level="5" title="Rational Rose"/>
+            <skill last-used="2007" level="4" title="Visio"/>
+            <skill last-used="2008" level="3" title="Visual Paradigm for UML"/>
+            <skill last-used="2011" level="2" title="Two-Tie Programming (LePUS3)"/>
+         </section>
+      </section>
+      <section id="testing" label="Testing">
+         <section label="xUnit">
+            <skill last-used="2014" level="7" title="JUnit, DBUnit, HttpUnit, XmlUnit, PerfUnit"/>
+            <skill last-used="2011" level="3" title="JSUnit, QUnit, JSTestDriver (JavaScript)"/>
+            <skill last-used="2009" level="6" title="TestNG"/>
+         </section>
+         <section label="xSpec">
+            <skill last-used="2011" level="4" title="Cucumber, RSpec (Ruby)"/>
+            <skill last-used="2011" level="2" title="Jasmine, ScrewUnit (JavaScript)"/>
+            <skill last-used="2011" level="2" title="JBehave (Java)"/>
+         </section>
+         <section label="Auto testing">
+            <skill last-used="2014" level="7" title="Selenium"/>
+            <skill last-used="2009" level="6" title="Watir"/>
+            <skill last-used="2010" level="2" title="JMeter"/>
+            <skill last-used="2010" level="2" title="BadBoy"/>
+            <skill last-used="2009" level="1" title="AutoIt"/>
+         </section>
+      </section>
+      <section id="data-storage" label="Data Storage">
+         <section label="RDBMS">
+            <skill last-used="2014" level="7" title="Oracle(PL\SQL)"/>
+            <skill last-used="2009" level="7" title="PostgreSQL"/>
+            <skill last-used="2009" level="7" title="MySQL"/>
+            <skill last-used="2014" level="6" title="MS SQL(TransactSQL)"/>
+            <skill last-used="2007" level="5" title="MS Access"/>
+            <skill last-used="2014" level="3" title="Other (SQLite, HSQLDB, H2, DB2, db4o)"/>
+         </section>
+
+         <section label="NoSQL">
+            <skill last-used="2011" level="1" title="MongoDB, Casandra, CouchDB"/>
+         </section>
+      </section>
+      <section id="xml-technologies" label="XML Technologies">
+         <skill last-used="2014" level="9" title="XML"/>
+         <skill last-used="2014" level="7" title="XSL/XSLT"/>
+         <skill last-used="2014" level="7" title="XPath"/>
+         <skill last-used="2009" level="6" title="XSL-FO"/>
+         <skill last-used="2014" level="3" title="Other (SVG, FIX, RSS)"/>
+      </section>
+      <section id="internet-technologies" label="Internet Technologies">
+         <skill last-used="2014" level="7" title="HTML/DHTML"/>
+         <skill last-used="2014" level="8" title="CSS"/>
+         <skill last-used="2014" level="8"
+                title="JavaScript(AJAX, Prototype, Script.aculo.us, jQuery)"/>
+         <skill last-used="2013" level="6" title="Ruby on Rails"/>
+         <skill last-used="2005" level="1" title="PHP"/>
+      </section>
+      <section id="process-build-management" label="Process &amp; Build Management">
+         <section label="Bug Tracking Systems">
+            <skill last-used="2012" level="6" title="JIRA"/>
+            <skill last-used="2009" level="4" title="ClearQuest"/>
+            <skill last-used="2012" level="5" title="Google Code"/>
+         </section>
+         <section label="Version Control System">
+            <skill last-used="2008" level="8" title="Rational ClearCase"/>
+            <skill last-used="2009" level="2" title="CVS"/>
+            <skill last-used="2012" level="8" title="SVN"/>
+            <skill last-used="2014" level="3" title="Mercurial"/>
+            <skill last-used="2014" level="4" title="Git"/>
+         </section>
+         <section label="Building Tools">
+            <skill last-used="2014" level="5" title="Ant"/>
+            <skill last-used="2014" level="8" title="Maven"/>
+            <skill last-used="2008" level="2" title="Raven"/>
+            <skill last-used="2012" level="5" title="Rake"/>
+         </section>
+         <section label="Continuous Integration">
+            <skill last-used="2009" level="5" title="Jenkins"/>
+            <skill last-used="2009" level="2" title="Bamboo"/>
+            <skill last-used="2009" level="4" title="TeamCity"/>
+         </section>
+         <section label="Code Quality &amp; Code Review Tools">
+            <skill last-used="2009" level="5" title="FishEye/Crucible"/>
+            <skill last-used="2009" level="2" title="Hammurapi"/>
+            <skill last-used="2014" level="7" title="Sonar"/>
+            <skill last-used="2009" level="4" title="Dashboard, QALab"/>
+            <skill last-used="2014" level="8" title="Findbugs, CheckStyle, PMD, JLint, JDepend"/>
+            <skill last-used="2009" level="1" title="metric_fu (Ruby)"/>
+            <skill last-used="2011" level="2" title="JSLint, JHint (JavaScript)"/>
+         </section>
+      </section>
+      <section id="other-languages" label="Other Languages">
+         <skill last-used="2014" level="8" title="JavaScript"/>
+         <skill last-used="2014" level="7" title="Ruby"/>
+         <skill last-used="2009" level="2" title="Groovy"/>
+         <skill last-used="2007" level="5" title="C/C++ (STL, Win API, MFC)"/>
+         <skill last-used="2005" level="4" title="Pascal and Object Pascal (Delphi)"/>
+         <skill last-used="2010" level="3" title="Haskell"/>
+         <skill last-used="2014" level="1"
+                title="Other (Lisp, Prolog, Eiffel, Python, Clojure)"/>
+      </section>
+  </skills>
+</resume>

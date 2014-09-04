@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg:svg xmlns:svg="http://www.w3.org/2000/svg"
+         height="120" width="120" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <svg:g>
+        <svg:circle fill="#B2B2B3" r="20px" cx="10" cy="15" />
+
+
+        <svg:text font-family="Courier New" font-weight="bold"
+                  fill="black"
+                  text-anchor="middle"
+                  alignment-baseline="middle"
+                  dominant-baseline="middle"
+                  font-size="20px"
+                  x="20px" y="20">
+            <svg:tspan>2</svg:tspan>
+            <svg:tspan dx="-10px" dy="-8px" font-size="14px">3</svg:tspan>
+            <svg:tspan dx="-16px" dy="8px">/</svg:tspan>
+            <svg:tspan dx="-16px" dy="6px" font-size="14px">4</svg:tspan>
+        </svg:text>
+    </svg:g>
+</svg:svg>
